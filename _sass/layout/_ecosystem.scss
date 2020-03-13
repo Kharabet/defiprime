@@ -18,6 +18,9 @@
       max-width: 730px;
       margin-left: auto;
       margin-right: auto;
+      font-weight: normal;
+      line-height: 180%;
+      font-style: normal;
     }
   }
   h3 {
@@ -184,7 +187,7 @@
               }
             }
             &:last-child {
-              font-size: 66px;              
+              font-size: 66px;
               padding-bottom: 30px;
               @media screen and(max-width: 1109px) {
                 font-size: 56px;
@@ -192,7 +195,7 @@
               @media screen and(max-width: 991px) {
                 font-size: 48px;
               }
-              @media(min-width: 768px){
+              @media (min-width: 768px) {
                 justify-content: center;
               }
               @media screen and(max-width: 767px) {
